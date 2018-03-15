@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["collins-sm@googlegroups.com"]
   spec.summary       = %q{consolr is a pure ruby wrapper over IPMI to allow Out of Band communiation with nodes.}
   spec.description   = %q{Consolr is a utility which speaks to Collins on our behalf and retrieves the address, username and password to connect to that node over IPMI. Passing different flags, we can performs a variety of taks on the node over IPMI. There are safeguards in place to prevent potentially catastrophic actions being performed on nodes.}
-  spec.homepage      = "https://github.com/tumblr/collins/tree/master/support/ruby/consolr"
+  spec.homepage      = "https://github.com/tumblr/consolr"
   spec.license       = "Apache 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0")
